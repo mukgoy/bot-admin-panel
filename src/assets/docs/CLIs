@@ -1,4 +1,12 @@
 ng g m shared --routing
+ng g d shared/directives/has-permission
+ng g s shared/services/user
+
 ng g m auth --routing
+ng g c auth/components/login
+
 ng g m admin-panel --routing
+ng g c admin-panel/components/shared/header
+
+
 ng g m user-panel --routing
