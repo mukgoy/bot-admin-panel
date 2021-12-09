@@ -1,0 +1,4 @@
+ng g m shared --routing
+ng g m auth --routing
+ng g m admin-panel --routing
+ng g m user-panel --routing
